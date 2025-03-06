@@ -29,7 +29,7 @@ FILES=	cli.lua \
 	password.lua \
 	screen.lua
 
-# pfSense
+# Ahool
 FILES+=	logo-ahoolbw.lua \
 	brand-ahool.lua
 

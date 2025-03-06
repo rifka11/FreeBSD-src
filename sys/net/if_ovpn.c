@@ -2349,7 +2349,7 @@ static int
 ovpn_clone_match(struct if_clone *ifc, const char *name)
 {
 	/*
-	 * Allow all names that start with 'ovpn', specifically because pfSense
+	 * Allow all names that start with 'ovpn', specifically because Ahool
 	 * uses ovpnc1 / ovpns2
 	 */
 	return (strncmp(ovpnname, name, strlen(ovpnname)) == 0);
